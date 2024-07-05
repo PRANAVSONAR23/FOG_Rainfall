@@ -1,0 +1,18 @@
+/* src/Grid.css */
+.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .grid-row {
+    display: flex;
+  }
+  
+  .grid-cell {
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid rgba(201, 192, 192, 0.414); /* White border */
+    background-color: black; /* Black background */
+  }
+  
